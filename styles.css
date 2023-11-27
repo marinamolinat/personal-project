@@ -1,0 +1,91 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #435585;
+    
+}
+
+header {
+    background: #141E46;
+    color: #fff;
+    padding: 10px, 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#spincat {
+
+    
+    width: 15%;
+    height: auto;
+    
+
+
+}
+
+
+h3 {
+    font-size: 15px;
+    font-style: italic;
+    font: optional;
+
+}
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #FFF5E0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #C70039;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button{
+    background-color: #FF6969;  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-radius: 5px;
+}
+
+button:hover {
+    background-color:  #c91b1b;
+    
+
+}

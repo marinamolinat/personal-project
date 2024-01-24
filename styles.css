@@ -30,9 +30,11 @@ header {
 
 
 }
+h3{
+    font-size: 30px;
+}
 
-
-h3 {
+h4 {
     font-size: 15px;
     font-style: italic;
     font: optional;
@@ -44,16 +46,56 @@ header h1 {
 
 nav ul {
     list-style: none;
+    overflow: hidden;
+   
+    
+
 }
 
+.imgs {
+    width: 20%;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 480px) {
+    .imgs {
+      width: 80%;
+    }
+  }
+.example {
+    background-color: #b37cd8f7;
+    margin: 10px;
+    margin-top: 20px;
+
+
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2.5px;
+
+}
+
+
 nav ul li {
+   
+   
     display: inline;
-    margin-right: 20px;
+   
+  
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    display: block; 
+    padding: 15px;
+    
+    border-radius: 15px;
+    margin: 0px;
+
+    
+}
+nav ul li a:hover{
+
+    background-color: #2d3d67 ;
 }
 
 main {
@@ -87,5 +129,26 @@ button{
 button:hover {
     background-color:  #c91b1b;
     
+
+}
+
+.definition{
+    margin: 10px;
+    margin-top: 20px;
+    background-color:#818FB4;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2.5px;
+}
+
+.warning{
+    background-color: #e63668f7;
+    margin: 10px;
+    margin-top: 20px;
+
+
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2.5px;
 
 }
